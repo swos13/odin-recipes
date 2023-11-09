@@ -1,7 +1,8 @@
 h1 {
     text-align: center;
     background-color: rgb(199, 131, 131);
-    font-size: 1.5em;
+    font-size: 18px;
+    padding: 10px;
 }
 
 body{
@@ -14,8 +15,24 @@ p {
     padding: 10px;
 }
 
-a, li {
+a {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.recipes-list {
+    border: rgba(50,30, 200, 0.3) 5px solid;
+    padding: 0 0;
+}
+.recipe {
     text-align: center;
     display: block;
+    list-style-position: inside;
+}
+
+.description, .ingredients, .steps {
+    padding-bottom: 10px;
+    border-bottom: rgb(0,0,0) 2px solid;
 }
 
